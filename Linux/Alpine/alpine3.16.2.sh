@@ -130,7 +130,7 @@ if [ -d $folder/var ];then
         echo "You can now start Alpine with 'alpine' script next time"
 	echo ""
 	rm -rf ~/.bash_profile" > $folder/root/.bash_profile  
-	rm alpine3.16.2.sh
+	#rm alpine3.16.2.sh
 	rm audiofix.sh
 	bash $bin
 else
