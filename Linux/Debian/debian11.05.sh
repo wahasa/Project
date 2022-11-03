@@ -103,6 +103,6 @@ echo "You can now start Debian with 'debian' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
 
-   rm debian11.05.sh
+   #rm debian11.05.sh
    rm audiofix.sh
 bash $bin
