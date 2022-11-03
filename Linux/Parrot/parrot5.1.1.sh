@@ -100,6 +100,6 @@ echo "You can now start Parrot with 'parrot' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    
-   rm parrot5.1.1.sh
+   #rm parrot5.1.1.sh
    rm audiofix.sh
 bash $bin
