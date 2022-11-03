@@ -90,7 +90,7 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-clear
+  clear
   echo " "
   echo "Updating Ubuntu,.."
   echo " "
@@ -103,6 +103,6 @@ echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    
-   rm ubuntu22.10.sh
+   #rm ubuntu22.10.sh
    rm audiofix.sh
 bash $bin
