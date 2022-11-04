@@ -1,7 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install root-repo x11-repo
 pkg install proot -y
-
 termux-setup-storage
 
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
@@ -39,6 +38,7 @@ if [ "$first" != 1 ];then
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
    echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
+
 mkdir -p $folder/binds
 bin=.ubuntu
 linux=ubuntu
@@ -63,9 +63,9 @@ fi
 command+=" -b /dev"
 command+=" -b /proc"
 command+=" -b $folder/root:/dev/shm"
-## uncomment the following line to have access to the home directory of termux
-#command+=" -b /data/data/com.termux/files/home:/root"
-## uncomment the following line to mount /sdcard directly to /
+# uncomment the following line to have access to the home directory of termux
+command+=" -b /data/data/com.termux/files/home:/root"
+# uncomment the following line to mount /sdcard directly to /
 command+=" -b /sdcard"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
@@ -90,10 +90,10 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-  clear
-  echo " "
-  echo "Updating Ubuntu,.."
-  echo " "
+   clear
+   echo " "
+   echo "Updating Ubuntu,.."
+   echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
@@ -103,6 +103,6 @@ echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    
-   #rm ubuntu22.04.sh
+   rm ubuntu22.04.sh
    rm audiofix.sh
 bash $bin
