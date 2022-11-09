@@ -90,10 +90,10 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-clear
-echo " "
-echo "Updating Debian,.."
-echo " "
+   clear
+   echo " "
+   echo "Updating Debian,.."
+   echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
@@ -103,6 +103,6 @@ echo "You can now start Debian with 'debian' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
 
-   #rm debian11.05.sh
+   rm debian11.05.sh
    rm audiofix.sh
 bash $bin
