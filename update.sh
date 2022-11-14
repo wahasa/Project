@@ -8,5 +8,5 @@ chmod +x ../usr/bin/Install
 echo ""
 echo "Updating list successful,."
 echo ""
-Linux
+Linux List
 rm update.sh
