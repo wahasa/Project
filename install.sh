@@ -8,3 +8,4 @@ echo ""
 echo "Installation successful,."
 echo ""
 rm install.sh
+Linux List
