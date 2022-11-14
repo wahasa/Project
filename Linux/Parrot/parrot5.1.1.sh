@@ -86,10 +86,10 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-  clear
-  echo " "
-  echo "Updating Parrot,.."
-  echo " "
+   clear
+   echo " "
+   echo "Updating Parrot,.."
+   echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
