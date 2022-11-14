@@ -1,7 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install root-repo x11-repo
 pkg install proot -y
-
 termux-setup-storage
 
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
@@ -100,6 +99,6 @@ echo "You can now start Parrot with 'parrot' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    
-   #rm parrot5.1.1.sh
+   rm parrot5.1.1.sh
    rm audiofix.sh
 bash $bin
