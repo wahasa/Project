@@ -7,5 +7,5 @@ chmod +x ../usr/bin/Install
 echo ""
 echo "Installation successful,."
 echo ""
-Linux List
+Linux
 rm install.sh
