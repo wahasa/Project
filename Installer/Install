@@ -27,10 +27,10 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Alpine3.16")
-	echo "Sukses 1"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.16.2.sh && chmod +x alpine3.16.2.sh && ./alpine3.16.2.sh
         ;;
         "Alpine3.17")
-	echo "Sukses 2"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.0.sh && chmod +x alpine3.17.0.sh && ./alpine3.17.0.sh
 	;;
         "Debian")
 clear
@@ -53,10 +53,10 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
 	"Debian10")
-	echo "Sukses 1"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian10.13.sh && chmod +x debian10.13.sh && ./debian10.13.sh
 	;;
 	"Debian11")
-	echo "Sukses 2"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.05.sh && chmod +x debian11.05.sh && ./debian11.05.sh
 	;;
         "Fedora")
 clear
@@ -85,13 +85,13 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
         ;;
         "Fedora36")
-        echo "Sukses 1"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora36.1.5.sh && chmod +x fedora36.1.5.sh && ./fedora36.1.5.sh
         ;;
         "Fedora37")
-        echo "Sukses 2"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora37.0.0.sh && chmod +x fedora37.0.0.sh && ./fedora37.0.0.sh
 	;;
         "Fedora38")
-        echo "Sukses 3"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora38.0.0.sh && chmod +x fedora38.0.0.sh && ./fedora38.0.0.sh
 	;;
         "Kali")
 clear
@@ -104,20 +104,14 @@ printf "${blu}Name   ${red}: ${grn}Kali2022\n"
 printf "${blu}Versi  ${red}: ${grn}2022.3\n"
 printf "${blu}Status ${red}: ${grn}latest"
 printf "\n\n"
-#printf "${ylw}• Kali 2021"
-#printf "\n\n"
-#printf "${blu}Name   ${red}: ${grn}Kali2021\n"
-#printf "${blu}Versi  ${red}: ${grn}2021.4a\n"
-#printf "${blu}Status ${red}: ${grn}latest"
-#printf "\n\n"
 printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Kali2021")
-        echo "Sukses 1"
+        echo ""
         ;;
         "Kali2022")
-        echo "Sukses 2"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Kali/kali2022.3.sh && chmod +x kali2022.3.sh && ./kali2022.3.sh
 	;;
         "Parrot")
 clear
@@ -140,10 +134,10 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Parrot5.0")
-        echo "Sukses 1"
+        echo ""
         ;;
         "Parrot5.1")
-        echo "Sukses 2"
+        echo ""
 	;;
         "Ubuntu")
 clear
@@ -172,10 +166,13 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Ubuntu22.04")
-        echo "Sukses 1"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
         ;;
         "Ubuntu22.10")
-        echo "Sukses 2"
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
+        ;;
+        "Ubuntu23.04")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu23.04.sh && chmod +x ubuntu23.04.sh && ./ubuntu23.04.sh
 	;;
         *)
         ;;
