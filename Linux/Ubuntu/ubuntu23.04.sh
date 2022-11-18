@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/oci/kinetic/current/ubuntu-kinetic-oci-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/core/lunar/current/ubuntu-lunar-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -38,7 +38,6 @@ if [ "$first" != 1 ];then
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
    echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
-
 mkdir -p $folder/binds
 bin=.ubuntu
 linux=ubuntu
@@ -81,7 +80,6 @@ else
     \$command -c "\$com"
 fi
 EOM
-
    echo "Fixing shebang of $linux"
    termux-fix-shebang $bin
    echo "Making $linux executable"
@@ -90,8 +88,6 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-rm ~/ubuntu-fs/etc/apt/sources.list
-wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/sources.list -P ~/ubuntu-fs/etc/apt/
    clear
    echo " "
    echo "Updating Ubuntu,.."
@@ -103,8 +99,7 @@ clear
 echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
-rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-   
+rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
    rm ubuntu23.04.sh
    rm audiofix.sh
 bash $bin
