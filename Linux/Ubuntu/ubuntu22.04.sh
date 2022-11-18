@@ -38,7 +38,6 @@ if [ "$first" != 1 ];then
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
    echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
-
 mkdir -p $folder/binds
 bin=.ubuntu
 linux=ubuntu
@@ -81,7 +80,6 @@ else
     \$command -c "\$com"
 fi
 EOM
-
    echo "Fixing shebang of $linux"
    termux-fix-shebang $bin
    echo "Making $linux executable"
@@ -101,8 +99,7 @@ clear
 echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
-rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-   
+rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
    rm ubuntu22.04.sh
    rm audiofix.sh
 bash $bin
