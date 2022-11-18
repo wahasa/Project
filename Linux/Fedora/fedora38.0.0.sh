@@ -81,7 +81,6 @@ else
     \$command -c "\$com"
 fi
 EOM
-
    echo "Fixing shebang of $linux"
    termux-fix-shebang $bin
    echo "Making $linux executable"
@@ -92,7 +91,6 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-
 clear
 echo " "
 echo "Add Fedora Package,.."
@@ -104,7 +102,6 @@ echo " "
 echo "You can now start Fedora with 'fedora' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-
    rm fedora38.0.0.sh
    rm audiofix.sh
 bash $bin
