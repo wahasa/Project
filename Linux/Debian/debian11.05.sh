@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/wahasa/Debian/releases/download/11.5/Debian-11.5-${archurl}-bullseye.tar.xz" -O $tarball
+		wget https://raw.githubusercontent.com/wahasa/Debian/main/Rootfs/debian-bullseye-${archurl}.sh && debian-bullseye-${archurl}.sh && ./debian-bullseye-${archurl}.sh
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
