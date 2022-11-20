@@ -77,7 +77,6 @@ else
     \$command -c "\$com"
 fi
 EOM
-
    echo "Fixing shebang of $linux"
    termux-fix-shebang $bin
    echo "Making $linux executable"
@@ -97,8 +96,7 @@ clear
 echo " "
 echo "You can now start Parrot with 'parrot' script next time"
 echo " "
-rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-   
-   rm parrot5.1.1.sh
+rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
+   rm parrot-armhf.sh
    rm audiofix.sh
 bash $bin
