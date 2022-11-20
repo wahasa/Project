@@ -16,7 +16,7 @@ if [ "$first" != 1 ];then
                 echo "Download Rootfs, this may take a while base on your internet speed."
                 case `dpkg --print-architecture` in
                 aarch64)
-                        archurl="aarch64" ;;
+                        archurl="arm64" ;;
                 #arm)
                 #       archurl="armhf" ;;
                 amd64)
@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget https://github.com/fedora-cloud/docker-brew-fedora/blob/886b921b3dc7e58aea627372b0f5509a66d4dc38/${archurl}/fedora-37-${archurl}.tar.xz?raw=true -O $tarball
+                wget https://raw.githubusercontent.com/wahasa/fedora/main/Rootfs/fedora-37-${archurl}.sh && fedora-37-${archurl}.sh && ./fedora-37-${archurl}.sh
         fi
         cur=`pwd`
         mkdir -p "$folder"
