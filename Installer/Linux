@@ -156,5 +156,6 @@ printf "\n\n"
         Linux List
         ;;
         *)
+Linux List
         ;;
 esac
