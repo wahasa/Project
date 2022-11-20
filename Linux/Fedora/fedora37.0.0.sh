@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget https://raw.githubusercontent.com/wahasa/fedora/main/Rootfs/fedora-37-${archurl}.sh && fedora-37-${archurl}.sh && ./fedora-37-${archurl}.sh
+                wget https://raw.githubusercontent.com/wahasa/fedora/main/Rootfs/fedora-37-${archurl}.sh && chmod +x fedora-37-${archurl}.sh && ./fedora-37-${archurl}.sh
         fi
         cur=`pwd`
         mkdir -p "$folder"
