@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
 		*)
 			echo "unknown architecture"; exit 1 ;;
 		esac
-		wget "https://github.com/wahasa/Debian/releases/download/10.13/Debian-10.13-${archurl}-buster.tar.xz" -O $tarball
+		wget https://raw.githubusercontent.com/wahasa/Debian/main/Rootfs/debian-buster-${archurl}.sh && chmod +x debian-buster-${archurl}.sh && ./debian-buster-${archurl}.sh
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
