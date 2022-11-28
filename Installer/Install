@@ -82,7 +82,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian10
         "Debian11.05")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.05.sh && chmod +x debian11.05.sh && ./debian11.05.sh
         ;;
-        "Debian")
+        "DebianTest")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian.sh && chmod +x debian.sh && ./debian.sh
 	;;
         "Fedora")
