@@ -27,11 +27,12 @@ pkg install wget && wget https://raw.githubusercontent.com/wahasa/Project/main/i
 Note :
 
 If the script doesn't work, try updating the Linux list by running the 'Linux Update' command.
+</br>
 
 ---
 </br>
 This time I will make a simple script to install Linux on Termux which I have collected for several Linux,
-
+</br>
 and I will continue to update it if there is the latest rootfs.
 </br>
 
