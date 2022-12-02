@@ -135,7 +135,7 @@ printf "\n\n\n"
 printf "${ylw}• Kali Nethunter"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Kali2022\n"
-printf "${blu}Versi  ${red}: ${grn}2022.4\n"
+printf "${blu}Versi  ${red}: ${grn}2022.3\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64"
 printf "\n\n"
@@ -143,7 +143,7 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Kali2022")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Kali/kali2022.3.sh && chmod +x kali2022.3.sh && ./kali2022.3.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Kali/kali2022.sh && chmod +x kali2022.sh && ./kali2022.sh
 	;;
         "Parrot")
 clear
