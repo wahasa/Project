@@ -14,4 +14,4 @@ case `dpkg --print-architecture` in
       wget "https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot-${archurl}.sh"
 chmod +x parrot-${archurl}.sh
 bash parrot-${archurl}.sh
-rm parrot5.1.1.sh
+rm parrot5.1.sh
