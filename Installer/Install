@@ -162,7 +162,7 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Parrot5.1")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot5.1.1.sh && chmod +x parrot5.1.1.sh && ./parrot5.1.1.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot5.1.sh && chmod +x parrot5.1.sh && ./parrot5.1.sh
 	;;
         "Ubuntu")
 clear
