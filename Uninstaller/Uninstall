@@ -1,0 +1,39 @@
+#!/bin/bash
+case "$1" in
+	"")
+	Linux List
+	;;
+	"Alpine")
+rm ~/.alpine
+rm -rf ~/alpine-fs
+rm ../usr/bin/alpine
+	;;
+        "Debian")
+rm ~/.debian
+rm -rf ~/debian-fs
+rm ../usr/bin/debian
+	;;
+        "Fedora")
+rm ~/.fedora
+rm -rf ~/fedora-fs
+rm ../usr/bin/fedora
+	;;
+        "Kali")
+rm -rf ~/kali*
+rm ../usr/bin/nh
+rm ../usr/bin/nethunter
+	;;
+        "Parrot")
+rm ~/.parrot
+rm -rf ~/parrot*
+rm ../usr/bin/parrot
+	;;
+        "Ubuntu")
+rm ~/.ubuntu
+rm -rf ~/ubuntu-fs
+rm ../usr/bin/ubuntu
+	;;
+        *)
+Linux List
+        ;;
+esac
