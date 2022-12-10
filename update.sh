@@ -7,6 +7,7 @@ wget -q https://raw.githubusercontent.com/wahasa/Project/main/Installer/Install 
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Uninstaller/Uninstall -P ../usr/bin/
 chmod +x ../usr/bin/Linux
 chmod +x ../usr/bin/Install
+chmod +x ../usr/bin/Uninstall
 echo "Updating list successful,."
 echo ""
 sleep 1
