@@ -12,7 +12,7 @@ List Linux Termux
  - Debian 10.13, 11.05
  - Fedora 36.1, 37.0, 38.0
  - Kali 2022.4
- - Parrot 5.1.1
+ - Parrot 5.1.2
  - Ubuntu 22.04, 22.10, 23.04
 
 ---
