@@ -1,7 +1,5 @@
 #!/bin/bash
-# Termux Prefix Switcher
-# This Program will switch Termux Environment from 64-bit to 32-bit
-
+# Termux Aarch Switch 64 bit to 32 bit
 # Android 5/6 isn't supported currently
 case "$(getprop ro.build.version.release)" in
 	5*|6*)
@@ -21,7 +19,7 @@ TEMPDIR="$(mktemp -d)"
 
 print-help(){
 	cat <<- EOM
-	Termux Arch Switch 64 bit to 32 bit
+	Termux Aarch Switch 64 bit to 32 bit
 
 	Options:
 	 help   - show this help
