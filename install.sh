@@ -31,6 +31,7 @@ echo -n "."
 sleep 2
 rm ../usr/bin/Install.*
 rm ../usr/bin/Linux.*
+rm ../usr/bin/Uninstall.*
 clear
 Linux
 rm install.sh
