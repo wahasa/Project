@@ -54,8 +54,8 @@ printf "${wht}Welcome To Debian Termux For Android"
 printf "\n\n\n"
 printf "${ylw}• Debian (Bullseye)"
 printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}Debian11.05\n"
-printf "${blu}Versi  ${red}: ${grn}11.05\n"
+printf "${blu}Name   ${red}: ${grn}Debian11.06\n"
+printf "${blu}Versi  ${red}: ${grn}11.06\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
@@ -79,8 +79,8 @@ printf "\n\n"
         "Debian10.13")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian10.13.sh && chmod +x debian10.13.sh && ./debian10.13.sh
         ;;
-        "Debian11.05")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.05.sh && chmod +x debian11.05.sh && ./debian11.05.sh
+        "Debian11.06")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.06.sh && chmod +x debian11.06.sh && ./debian11.06.sh
         ;;
         "DebianTest")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian.sh && chmod +x debian.sh && ./debian.sh
