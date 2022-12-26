@@ -1,4 +1,4 @@
-.#!/bin/bash
+#!/bin/bash
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Installer/Linux -P ../usr/bin/
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Installer/Install -P ../usr/bin/
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Uninstaller/Uninstall -P ../usr/bin/
