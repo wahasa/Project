@@ -1,9 +1,10 @@
-#!/bin/bash
+.#!/bin/bash
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Installer/Linux -P ../usr/bin/
 wget -q https://raw.githubusercontent.com/wahasa/Project/main/Installer/Install -P ../usr/bin/
+wget -q https://raw.githubusercontent.com/wahasa/Project/main/Uninstaller/Uninstall -P ../usr/bin/
 chmod +x ../usr/bin/Linux
 chmod +x ../usr/bin/Install
-echo ""
+chmod +x ../usr/bin/Uninstall
 echo "Installation successful,."
 echo ""
 sleep 1
