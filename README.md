@@ -9,7 +9,7 @@
 List Linux Termux
 
  - Alpine 3.15, 3.16, 3.17
- - Debian 10.13, 11.05
+ - Debian 10.13, 11.06
  - Fedora 36.1, 37.0, 38.0
  - Kali 2022.4
  - Parrot 5.1.2
