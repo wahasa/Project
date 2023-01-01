@@ -116,6 +116,6 @@ echo " "
 echo "You can now start Manjaro with 'manjaro' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   #rm manjaro.sh
+   rm manjaro.sh
    rm audiofix.sh
 bash $bin
