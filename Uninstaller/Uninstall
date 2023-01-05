@@ -23,6 +23,11 @@ rm -rf ~/kali*
 rm ../usr/bin/nh
 rm ../usr/bin/nethunter
 	;;
+        "Manjaro")
+rm ~/.manjaro
+rm -rf ~/manjaro-fs
+rm ../usr/bin/manjaro
+	;;
         "Parrot")
 rm ~/.parrot
 rm -rf ~/parrot*
@@ -32,6 +37,11 @@ rm ../usr/bin/parrot
 rm ~/.ubuntu
 rm -rf ~/ubuntu-fs
 rm ../usr/bin/ubuntu
+	;;
+        "Void")
+rm ~/.void
+rm -rf ~/void-fs
+rm ../usr/bin/void
 	;;
         *)
 Linux List
