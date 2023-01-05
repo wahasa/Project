@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
     *)
       echo "unknown architecture"; exit 1 ;;
     esac
-    wget "https://a-hel-fi.m.voidlinux.org/live/current/void-${archurl}-ROOTFS-20221001.tar.xz" -O $tarball
+    wget "https://a-hel-fi.m.voidlinux.org/live/20221001/void-${archurl}-ROOTFS-20221001.tar.xz" -O $tarball
   fi
   mkdir -p "$folder"
   echo "Decompressing Rootfs, please be patient."
