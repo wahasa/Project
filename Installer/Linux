@@ -150,7 +150,7 @@ printf "\n\n"
         "Kali")
         Install Kali
 ;;
-        "Majora")
+        "Manjaro")
         Install Manjaro
 ;;
         "Opensuse")
