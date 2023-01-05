@@ -33,9 +33,13 @@ printf "${wht}- ${blu}Fedora"
 printf "\n\n"
 printf "${wht}- ${blu}Kali"
 printf "\n\n"
+printf "${wht}- ${blu}Manjaro"
+printf "\n\n"
 printf "${wht}- ${blu}Parrot"
 printf "\n\n"
 printf "${wht}- ${blu}Ubuntu"
+printf "\n\n"
+printf "${wht}- ${blu}Void"
 printf "\n\n"
 printf "${grn}Please run the command 'Linux <name linux>' above."
 printf "\n\n"
@@ -147,7 +151,7 @@ printf "\n\n"
         Install Kali
 ;;
         "Majora")
-        Linux List
+        Install Manjaro
 ;;
         "Opensuse")
         Linux List
@@ -159,7 +163,7 @@ printf "\n\n"
         Install Ubuntu
 ;;
         "Void")
-        Linux List
+        Install Void
         ;;
         *)
 Linux List
