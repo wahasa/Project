@@ -10,7 +10,7 @@ case "$1" in
 clear
 printf "\n"
 printf "${blu}Welcome To Alpine Termux For Android\n"
-printf "${red}> ${wht}https://github.com/wahasa/Alpine\n"
+printf "${red}> ${wht}https://github.com/wahasa/Alpine"
 printf "\n\n\n"
 
 printf "${ylw}• Alpine 3.17"
@@ -52,7 +52,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.
 clear
 printf "\n"
 printf "${blu}Welcome To Debian Termux For Android\n"
-printf "${red}> ${wht}https://github.com/wahasa/Debian\n"
+printf "${red}> ${wht}https://github.com/wahasa/Debian"
 printf "\n\n\n"
 printf "${ylw}• Debian (Bullseye)"
 printf "\n\n"
@@ -91,7 +91,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian.s
 clear
 printf "\n"
 printf "${blu}Welcome To Fedora Termux For Android\n"
-printf "${red}> ${wht}https://github.com/wahasa/Fedora\n"
+printf "${red}> ${wht}https://github.com/wahasa/Fedora"
 printf "\n\n\n"
 
 printf "${ylw}• Fedora 38 (Container)"
@@ -133,7 +133,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora38
 clear
 printf "\n"
 printf "${blu}Welcome To Kali Termux For Android\n"
-printf "${red}> ${wht}https://github.com/wahasa/kali-linux\n"
+printf "${red}> ${wht}https://github.com/wahasa/kali-linux"
 printf "\n\n\n"
 
 printf "${ylw}• Kali Nethunter"
@@ -191,7 +191,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot5.
 clear
 printf "\n"
 printf "${blu}Welcome To Ubuntu Termux For Android\n"
-printf "${red}> ${wht}https://github.com/wahasa/Ubuntu\n"
+printf "${red}> ${wht}https://github.com/wahasa/Ubuntu"
 printf "\n\n\n"
 printf "${ylw}• Ubuntu (Lunar Lobster)"
 printf "\n\n"
