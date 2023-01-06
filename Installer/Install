@@ -48,6 +48,25 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.
         "Alpine3.17")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.0.sh && chmod +x alpine3.17.0.sh && ./alpine3.17.0.sh
 	;;
+        "Arch")
+clear
+printf "\n"
+printf "${wht}Welcome To Arch Termux For Android"
+printf "\n\n\n"
+
+printf "${ylw}• Arch 2022"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Arch2022\n"
+printf "${blu}Versi  ${red}: ${grn}2022\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "Arch2022")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Arch/arch.sh && chmod +x arch.sh && ./arch.sh
+	;;
         "Debian")
 clear
 printf "\n"
