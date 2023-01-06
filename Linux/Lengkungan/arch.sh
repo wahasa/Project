@@ -21,13 +21,12 @@ if [ "$first" != 1 ];then
 	                archurl="armv7" ;;
     		amd64)
     		        archurl="x86_64" ;;
-    		wget "https://mirrors.ocf.berkeley.edu/archlinux/iso/latest/archlinux-bootstrap-${archurl}.tar.gz" -O $tarball
 		x86_64)
     		        archurl="x86_64" ;;
-		wget "https://mirrors.ocf.berkeley.edu/archlinux/iso/latest/archlinux-bootstrap-${archurl}.tar.gz" -O $tarball
     		*)
       			echo "unknown architecture"; exit 1 ;;
     		esac
+                wget "https://mirrors.ocf.berkeley.edu/archlinux/iso/latest/archlinux-bootstrap-${archurl}.tar.gz" -O $tarball
     		wget "http://sg.mirror.archlinuxarm.org/os/ArchLinuxARM-${archurl}-latest.tar.gz" -O $tarball
 	fi
 	cur=`pwd`
