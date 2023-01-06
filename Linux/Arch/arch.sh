@@ -28,7 +28,7 @@ if [ "$first" != 1 ];then
     		*)
       			echo "unknown architecture"; exit 1 ;;
     		esac
-    		wget "https://github.com/manjaro-arm/rootfs/releases/download/20221226/Manjaro-ARM-${archurl}-latest.tar.gz" -O $tarball
+    		wget "http://sg.mirror.archlinuxarm.org/os/ArchLinuxARM-${archurl}-latest.tar.gz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
