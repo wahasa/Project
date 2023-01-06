@@ -41,7 +41,7 @@ printf "${wht}- ${blu}Ubuntu"
 printf "\n\n"
 printf "${wht}- ${blu}Void"
 printf "\n\n"
-printf "${grn}Please run the command 'Linux <Name linux>' above."
+printf "${grn}Please run the command 'Linux <${blu}Name linux${grn}>' above."
 printf "\n\n"
         ;;
         "Update")
