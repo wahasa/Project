@@ -136,7 +136,7 @@ printf "\n\n"
         Install Alpine
 ;;
         "Arch")
-        Linux List
+        Install Arch
 ;;
         "Centos")
         Linux List
