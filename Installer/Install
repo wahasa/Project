@@ -46,7 +46,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.16.3.sh && chmod +x alpine3.16.3.sh && ./alpine3.16.3.sh
         ;;
         "Alpine3.17")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.0.sh && chmod +x alpine3.17.0.sh && ./alpine3.17.0.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.sh && chmod +x alpine3.17.sh && ./alpine3.17.sh
 	;;
         "Arch")
 clear
