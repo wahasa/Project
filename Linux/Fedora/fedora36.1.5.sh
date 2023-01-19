@@ -103,6 +103,6 @@ echo " "
 echo "You can now start Fedora with 'fedora' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-   rm fedora36.sh
+   rm fedora36.1.5.sh
    rm audiofix.sh
 bash $bin
