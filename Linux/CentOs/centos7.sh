@@ -26,8 +26,8 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget https://github.com/CentOS/sig-cloud-instance-images/blob/b2d195220e1c5b181427c3172829c23ab9cd27eb/docker/centos-7-${archurl}-docker.tar.xz?raw=true" -O $tarball
-                wget https://github.com/CentOS/sig-cloud-instance-images/blob/8022ae6d18ddf031b1b3a80549eeb46d1deb6dcd/docker/centos-7${archurl}-docker.tar.xz?raw=true" -O $tarball
+                wget "https://github.com/CentOS/sig-cloud-instance-images/blob/b2d195220e1c5b181427c3172829c23ab9cd27eb/docker/centos-7-${archurl}-docker.tar.xz?raw=true" -O $tarball
+                wget "https://github.com/CentOS/sig-cloud-instance-images/blob/8022ae6d18ddf031b1b3a80549eeb46d1deb6dcd/docker/centos-7${archurl}-docker.tar.xz?raw=true" -O $tarball
                 wget "https://github.com/CentOS/sig-cloud-instance-images/blob/02ea5808a8a155bad28677dd5857c8d382027e14/docker/centos-7-${archurl}-docker.tar.xz?raw=true" -O $tarball
         fi
         cur=`pwd`
