@@ -103,4 +103,3 @@ rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    rm debian10.sh
    rm audiofix.sh
 bash $bin
-.
