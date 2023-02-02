@@ -110,3 +110,4 @@ rm -rf ~/.bash_profile" > $folder/root/.bash_profile
    rm arch.sh
    rm audiofix.sh
 bash $bin
+.
