@@ -1,4 +1,3 @@
-
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 VERSION=2020011601
