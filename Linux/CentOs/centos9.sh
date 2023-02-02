@@ -32,7 +32,8 @@ if [ "$first" != 1 ];then
         mkdir -p "$folder"
         cd "$folder"
         echo "Decompressing Rootfs, please be patient."
-        proot --link2symlink tar -xf ${cur}/${tarball}||:
+        proot --link2symlink tar -xf ${cur}/${tarball} --strip-components=1 --exclude json --exclude VERSION||:
+        tar -xf layer.tar
         cd "$cur"
    fi
    chmod 755 -R ~/$folder
