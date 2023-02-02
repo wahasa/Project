@@ -40,10 +40,10 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Alpine3.15")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.15.6.sh && chmod +x alpine3.15.6.sh && ./alpine3.15.6.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.15.sh && chmod +x alpine3.15.sh && ./alpine3.15.sh
         ;;
         "Alpine3.16")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.16.3.sh && chmod +x alpine3.16.3.sh && ./alpine3.16.3.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.16.sh && chmod +x alpine3.16.sh && ./alpine3.16.sh
         ;;
         "Alpine3.17")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.sh && chmod +x alpine3.17.sh && ./alpine3.17.sh
@@ -97,11 +97,11 @@ printf "\n\n"
 printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
-        "Debian10.13")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian10.13.sh && chmod +x debian10.13.sh && ./debian10.13.sh
+        "Debian10")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian10.sh && chmod +x debian10.sh && ./debian10.sh
         ;;
-        "Debian11.06")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.06.sh && chmod +x debian11.06.sh && ./debian11.06.sh
+        "Debian11")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian11.sh && chmod +x debian11.sh && ./debian11.sh
         ;;
         "DebianTest")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Debian/debian.sh && chmod +x debian.sh && ./debian.sh
@@ -140,13 +140,13 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Fedora36")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora36.1.5.sh && chmod +x fedora36.1.5.sh && ./fedora36.1.5.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora36.sh && chmod +x fedora36.sh && ./fedora36.sh
         ;;
         "Fedora37")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora37.0.0.sh && chmod +x fedora37.0.0.sh && ./fedora37.0.0.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora37.sh && chmod +x fedora37.sh && ./fedora37.sh
         ;;
         "Fedora38")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora38.0.0.sh && chmod +x fedora38.0.0.sh && ./fedora38.0.0.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Fedora/fedora38.sh && chmod +x fedora38.sh && ./fedora38.sh
 	;;
         "Kali")
 clear
