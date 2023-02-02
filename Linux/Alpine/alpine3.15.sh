@@ -135,4 +135,3 @@ if [ -d $folder/var ];then
 else
 	echo "Installation unsuccessful"
 fi
-.
