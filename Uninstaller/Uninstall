@@ -8,6 +8,16 @@ rm ~/.alpine
 rm -rf ~/alpine-fs
 rm ../usr/bin/alpine
 	;;
+        "Arch")
+rm ~/.arch
+rm -rf ~/arch-fs
+rm ../usr/bin/arch
+	;;
+        "Centos")
+rm ~/.centos
+rm -rf ~/centos-fs
+rm ../usr/bin/centos
+	;;
         "Debian")
 rm ~/.debian
 rm -rf ~/debian-fs
@@ -27,6 +37,11 @@ rm ../usr/bin/nethunter
 rm ~/.manjaro
 rm -rf ~/manjaro-fs
 rm ../usr/bin/manjaro
+	;;
+        "Opensuse")
+rm ~/.opensuse
+rm -rf ~/opensuse-fs
+rm ../usr/bin/opensuse
 	;;
         "Parrot")
 rm ~/.parrot
