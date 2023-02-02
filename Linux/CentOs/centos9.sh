@@ -96,7 +96,7 @@ EOM
    echo "Add Centos Package,.."
    echo " "
 echo "#!/bin/bash
-yum install  nano -y
+yum install ncurses nano -y
 clear
 echo " "
 echo "You can now start Centos with 'centos' script next time"
