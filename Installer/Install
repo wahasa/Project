@@ -67,7 +67,7 @@ printf "\n\n"
         "Arch2022")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Arch/arch.sh && chmod +x arch.sh && ./arch.sh
 	;;
-        "Arch")
+        "Centos")
 clear
 printf "\n"
 printf "${wht}Welcome To Centos Termux For Android"
