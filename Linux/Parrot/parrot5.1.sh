@@ -1,4 +1,3 @@
-
 #!/bin/bash
 case `dpkg --print-architecture` in
       aarch64)
