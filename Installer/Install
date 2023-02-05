@@ -278,10 +278,10 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Opensuse15")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse.sh && chmod +x opensuse.sh && ./opensuse.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse15.sh && chmod +x opensuse15.sh && ./opensuse15.sh
         ;;
         "Opensuse2022")
-wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse15.sh && chmod +x opensuse15.sh && ./opensuse15.sh
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse.sh && chmod +x opensuse.sh && ./opensuse.sh
 	;;
         "Parrot")
 clear
