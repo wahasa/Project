@@ -25,21 +25,27 @@ clear
 printf "\n"
 printf "${ylw}List Linux Termux For Android"
 printf "\n\n"
-printf "${wht}- ${blu}Alpine"
+printf "${wht}+ ${blu}Alpine"
 printf "\n\n"
-printf "${wht}- ${blu}Debian"
+printf "${wht}+ ${blu}Arch"
 printf "\n\n"
-printf "${wht}- ${blu}Fedora"
+printf "${wht}+ ${blu}Centos"
 printf "\n\n"
-printf "${wht}- ${blu}Kali"
+printf "${wht}+ ${blu}Debian"
 printf "\n\n"
-printf "${wht}- ${blu}Manjaro"
+printf "${wht}+ ${blu}Fedora"
 printf "\n\n"
-printf "${wht}- ${blu}Parrot"
+printf "${wht}+ ${blu}Kali"
 printf "\n\n"
-printf "${wht}- ${blu}Ubuntu"
+printf "${wht}+ ${blu}Manjaro"
 printf "\n\n"
-printf "${wht}- ${blu}Void"
+printf "${wht}+ ${blu}Opensuse"
+printf "\n\n"
+printf "${wht}+ ${blu}Parrot"
+printf "\n\n"
+printf "${wht}+ ${blu}Ubuntu"
+printf "\n\n"
+printf "${wht}+ ${blu}Void"
 printf "\n\n"
 printf "${grn}Please run the command 'Linux <${blu}Name linux${grn}>' above."
 printf "\n\n"
@@ -139,7 +145,7 @@ printf "\n\n"
         Install Arch
 ;;
         "Centos")
-        Linux List
+        Install Centos
 ;;
         "Debian")
         Install Debian
@@ -154,7 +160,7 @@ printf "\n\n"
         Install Manjaro
 ;;
         "Opensuse")
-        Linux List
+        Install Opensuse
 ;;
         "Parrot")
         Install Parrot
