@@ -253,6 +253,36 @@ printf "\n\n"
         "Manjaro2023")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Manjora/manjaro.sh && chmod +x manjaro.sh && ./manjaro.sh
 	;;
+        "Opensuse")
+clear
+printf "\n"
+printf "${wht}Welcome To OpenSuse Termux For Android"
+printf "\n\n\n"
+
+printf "${ylw}• Opensuse Leap"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Opensuse15\n"
+printf "${blu}Versi  ${red}: ${grn}15.4\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+
+printf "${ylw}• Opensuse Tumbleweed"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Opensuse2022\n"
+printf "${blu}Versi  ${red}: ${grn}2022\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "Opensuse15")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse.sh && chmod +x opensuse.sh && ./opensuse.sh
+        ;;
+        "Opensuse2022")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse15.sh && chmod +x opensuse15.sh && ./opensuse15.sh
+	;;
         "Parrot")
 clear
 printf "\n"
