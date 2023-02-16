@@ -94,7 +94,8 @@ EOM
    echo " "
 echo "#!/bin/bash
 tdnf update -y
-tdnf install coreutils nano -y
+tdnf install coreutils ncurses nano -y
+export TERM=linux
 clear
 echo " "
 echo "You can now start Photon with 'photon' script next time"
