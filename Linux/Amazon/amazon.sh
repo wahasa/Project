@@ -35,6 +35,7 @@ if [ "$first" != 1 ];then
         proot --link2symlink tar -xf ${cur}/${tarball}||:
         cd "$cur"
    fi
+   chmod 755 -R ~/$folder
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
    echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
@@ -84,13 +85,14 @@ EOM
    termux-fix-shebang $bin
    echo "Making $linux executable"
    chmod +x $bin
+   echo "Fixing permissions for $linux"
    echo "bash $bin" > $PREFIX/bin/$linux
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
    clear
    echo " "
-   echo "Updating Photon,.."
+   echo "Updating Amazon,.."
    echo " "
 echo "#!/bin/bash
 yum update -y
