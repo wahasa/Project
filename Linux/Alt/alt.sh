@@ -1,4 +1,3 @@
-
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install root-repo x11-repo
 pkg install proot -y
@@ -95,7 +94,7 @@ EOM
    echo " "
 echo "#!/bin/bash
 apt-get update -y
-apt-get install nano -y
+apt-get install locales nano -y
 clear
 echo " "
 echo "You can now start Alt with 'alt' script next time"
