@@ -20,7 +20,6 @@ printf "${blu}Versi  ${red}: ${grn}3.17.2\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Alpine 3.16"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Alpine3.16\n"
@@ -28,7 +27,6 @@ printf "${blu}Versi  ${red}: ${grn}3.16.4\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Alpine 3.15"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Alpine3.15\n"
@@ -36,7 +34,6 @@ printf "${blu}Versi  ${red}: ${grn}3.15.7\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Alpine (Edge)"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}AlpineDev\n"
@@ -197,7 +194,6 @@ printf "${blu}Versi  ${red}: ${grn}38.0\n"
 printf "${blu}Status ${red}: ${grn}Pre-release\n"
 printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Fedora 37 (Container)"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Fedora37\n"
@@ -205,7 +201,6 @@ printf "${blu}Versi  ${red}: ${grn}37.0\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Fedora 36 (Container)"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Fedora36\n"
@@ -277,7 +272,6 @@ printf "${blu}Versi  ${red}: ${grn}15.4\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
-
 printf "${ylw}• Opensuse Tumbleweed"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}Opensuse2022\n"
@@ -307,11 +301,21 @@ printf "${blu}Versi  ${red}: ${grn}5.1.2\n"
 printf "${blu}Status ${red}: ${grn}latest\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
+printf "${ylw}• Parrot 5.2 (Electro Ara)"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Parrot5.2\n"
+printf "${blu}Versi  ${red}: ${grn}5.2.0\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
 printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "Parrot5.1")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot5.1.sh && chmod +x parrot5.1.sh && ./parrot5.1.sh
+	;;
+        "Parrot5.2")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot5.2.sh && chmod +x parrot5.2.sh && ./parrot5.2.sh
 	;;
         "Ubuntu")
 clear
