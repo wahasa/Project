@@ -29,7 +29,7 @@ else
 	*)
 		echo "unknown architecture"; exit 1 ;;
 	esac
-	url=https://dl-cdn.alpinelinux.org/alpine/v3.17/releases/${archurl}/alpine-minirootfs-3.17.0-${archurl}.tar.gz
+	url=https://dl-cdn.alpinelinux.org/alpine/edge/releases/${archurl}/alpine-minirootfs-20230208-${archurl}.tar.gz
 	echo "Downloading and Extracting Rootfs,."
 	echo ""
 	if [ -x "$(command -v neofetch)" ]; then
@@ -129,7 +129,7 @@ if [ -d $folder/var ];then
         echo "You can now start Alpine with 'alpine' script next time"
 	echo ""
 	rm -rf ~/.bash_profile" > $folder/root/.bash_profile  
-	rm alpine3.17.0.sh
+	rm alpine.sh
 	rm audiofix.sh
 	bash $bin
 else
