@@ -16,7 +16,7 @@ List Linux Termux
  - Kali 2022.4
  - Manjaro 2023
  - Opensuse 15, 2022
- - Parrot 5.1.2
+ - Parrot 5.1, 5.2
  - Ubuntu 22.04, 22.10, 23.04
  - Void 2022
 
