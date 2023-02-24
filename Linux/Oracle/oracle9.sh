@@ -102,6 +102,6 @@ echo " "
 echo "You can now start Oracle with 'oracle' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   #oracle.sh
+   #oracle9.sh
    rm audiofix.sh
 bash $bin
