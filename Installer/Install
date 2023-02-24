@@ -39,15 +39,15 @@ printf "\n\n"
 
 printf "${ylw}• Alpine (Edge)"
 printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}AlpineEdge\n"
-printf "${blu}Versi  ${red}: ${grn}Build-20230208\n"
-printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Name   ${red}: ${grn}AlpineDev\n"
+printf "${blu}Versi  ${red}: ${grn}3.18 (20230208)\n"
+printf "${blu}Status ${red}: ${grn}Development\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
 printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
-        "AlpineEdge")
+        "AlpineDev")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine.sh && chmod +x alpine.sh && ./alpine.sh
         ;;
         "Alpine3.15")
