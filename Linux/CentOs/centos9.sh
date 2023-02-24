@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://cloud.centos.org/centos/9-stream/${archurl}/images/CentOS-Stream-Container-Base-9-20230116.0.${archurl}.tar.xz" -O $tarball
+                wget "https://cloud.centos.org/centos/9-stream/${archurl}/images/CentOS-Stream-Container-Base-9-20230216.0.${archurl}.tar.xz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
