@@ -11,7 +11,7 @@ case `dpkg --print-architecture` in
       *)
            echo "unknown architecture"; exit 1 ;;
       esac
-      wget "https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/parrot-${archurl}.sh"
-chmod +x parrot-${archurl}.sh
-bash parrot-${archurl}.sh
+      wget "https://raw.githubusercontent.com/wahasa/Project/main/Linux/Parrot/p5.2-${archurl}.sh"
+chmod +x p5.2-${archurl}.sh
+bash p5.2-${archurl}.sh
 rm parrot5.2.sh
