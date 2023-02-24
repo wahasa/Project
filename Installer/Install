@@ -47,7 +47,7 @@ printf "\n\n"
 printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
-        "Alpine")
+        "Alpineedge")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine.sh && chmod +x alpine.sh && ./alpine.sh
         ;;
         "Alpine3.15")
