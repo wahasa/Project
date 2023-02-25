@@ -26,7 +26,8 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://github.com/oracle/container-images/blob/7d2423b1e2c67d22f3026154b24555f7bf1e13fc/9/oraclelinux-9-${archurl}-rootfs.tar.xz?raw=true" -O $tarball
+                wget "https://github.com/oracle/container-images/blob/b42a4ac92cf22a1b724b3f44fcfd5af9fe19e7f5/7/oraclelinux-7-${archurl}-rootfs.tar.xz?raw=true" -O $tarball
+                wget "https://github.com/oracle/container-images/blob/1947e98c8d9e0b520d96a7ceb052f63eeeb8105c/7/oraclelinux-7-${archurl}-rootfs.tar.xz?raw=true" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
