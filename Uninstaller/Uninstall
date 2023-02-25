@@ -43,10 +43,25 @@ rm ~/.opensuse
 rm -rf ~/opensuse-fs
 rm ../usr/bin/opensuse
 	;;
+        "Oracle")
+rm ~/.oracle
+rm -rf ~/oracle*
+rm ../usr/bin/oracle
+	;;
         "Parrot")
 rm ~/.parrot
 rm -rf ~/parrot*
 rm ../usr/bin/parrot
+	;;
+        "Photon")
+rm ~/.photon
+rm -rf ~/photon*
+rm ../usr/bin/photon
+	;;
+        "Rocky")
+rm ~/.rocky
+rm -rf ~/rocky*
+rm ../usr/bin/rocky
 	;;
         "Ubuntu")
 rm ~/.ubuntu
