@@ -8,15 +8,18 @@
 ---
 List Linux Termux
 
- - Alpine 3.15, 3.16, 3.17
+ - Alpine 3.15, 3.16, 3.17, Edge
  - Arch 2022
  - Centos 7, 8, 9
- - Debian 10.13, 11.06
+ - Debian 10.13, 11.06 bookworm
  - Fedora 36.1, 37.0, 38.0
  - Kali 2022.4
  - Manjaro 2023
  - Opensuse 15, 2022
+ - Oracle 7, 8, 9
  - Parrot 5.1, 5.2
+ - Photon 3, 4, 5
+ - Rocky 8, 9
  - Ubuntu 22.04, 22.10, 23.04
  - Void 2022
 
