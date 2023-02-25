@@ -80,7 +80,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Arch/arch.sh &&
         "Centos")
 clear
 printf "\n"
-printf "${wht}Welcome To Centos Termux For Android"
+printf "${blu}Welcome To Centos Termux For Android"
 printf "\n\n\n"
 
 printf "${ylw}• CentOS 9 Stream"
