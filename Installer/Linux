@@ -41,7 +41,13 @@ printf "${wht}+ ${blu}Manjaro"
 printf "\n"
 printf "${wht}+ ${blu}Opensuse"
 printf "\n"
+printf "${wht}+ ${blu}Oracle"
+printf "\n"
 printf "${wht}+ ${blu}Parrot"
+printf "\n"
+printf "${wht}+ ${blu}Photon"
+printf "\n"
+printf "${wht}+ ${blu}Rocky"
 printf "\n"
 printf "${wht}+ ${blu}Ubuntu"
 printf "\n"
@@ -163,7 +169,16 @@ printf "\n\n"
         Install Opensuse
 ;;
         "Parrot")
+        Install Oracle
+;;
+        "Parrot")
         Install Parrot
+;;
+        "Parrot")
+        Install Photon
+;;
+        "Parrot")
+        Install Rocky
 ;;
         "Ubuntu")
         Install Ubuntu
