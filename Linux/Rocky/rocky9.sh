@@ -102,6 +102,6 @@ echo " "
 echo "You can now start Rocky with 'rocky' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   #rocky.sh
+   rm rocky9.sh
    rm audiofix.sh
 bash $bin
