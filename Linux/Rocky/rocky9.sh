@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://github.com/rocky-linux/sig-cloud-instance-images/blob/3ad7127acab95854d2eba80b7017c8766106cb70/layer.tar.xz?raw=true" -O $tarball
+                wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Rocky/r9-${archurl}.sh && chmod +x r9-${archurl}.sh && ./r9-${archurl}.sh
         fi
         cur=`pwd`
         mkdir -p "$folder"
