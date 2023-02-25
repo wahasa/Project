@@ -26,7 +26,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Photon/photon-${archurl}.sh && chmod +x photon-${archurl}.sh && ./photon-${archurl}.sh
+                wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Photon/p3-${archurl}.sh && chmod +x p3-${archurl}.sh && ./p3-${archurl}.sh
         fi
         cur=`pwd`
         mkdir -p "$folder"
