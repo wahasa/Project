@@ -11,7 +11,7 @@ List Linux Termux
  - Alpine 3.15, 3.16, 3.17, Edge
  - Arch 2022
  - Centos 7, 8, 9
- - Debian 10.13, 11.06 bookworm
+ - Debian 10.13, 11.06, bookworm
  - Fedora 36.1, 37.0, 38.0
  - Kali 2022.4
  - Manjaro 2023
