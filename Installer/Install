@@ -37,7 +37,7 @@ printf "\n\n"
 printf "${ylw}• Alpine (Edge)"
 printf "\n\n"
 printf "${blu}Name   ${red}: ${grn}AlpineDev\n"
-printf "${blu}Versi  ${red}: ${grn}3.18 (20230208)\n"
+printf "${blu}Versi  ${red}: ${grn}3.18 Alpha\n"
 printf "${blu}Status ${red}: ${grn}Development\n"
 printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
 printf "\n\n"
@@ -287,6 +287,45 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensu
         ;;
         "Opensuse2022")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Opensuse/opensuse.sh && chmod +x opensuse.sh && ./opensuse.sh
+	;;
+"Oracle")
+clear
+printf "\n"
+printf "${blu}Welcome To Oracle Termux For Android\n"
+printf "\n\n\n"
+
+printf "${ylw}• Oracle 9"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Oracle9\n"
+printf "${blu}Versi  ${red}: ${grn}9.0 Beta\n"
+printf "${blu}Status ${red}: ${grn}Pre-release\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Oracle 8"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Oracle8\n"
+printf "${blu}Versi  ${red}: ${grn}8.7\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Oracle 7"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Oracle7\n"
+printf "${blu}Versi  ${red}: ${grn}7.9\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "Oracle7")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Oracle/oracle7.sh && chmod +x oracle7.sh && ./oracle7.sh
+        ;;
+        "Oracle8")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Oracle/oracle8.sh && chmod +x oracle8.sh && ./oracle8.sh
+        ;;
+        "Oracle9")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Oracle/oracle9.sh && chmod +x oracle9.sh && ./oracle9.sh
 	;;
         "Parrot")
 clear
