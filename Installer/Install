@@ -407,6 +407,36 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Photon/photon4.
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Photon/photon5.sh && chmod +x photon5.sh && ./photon5.sh
 	;;
 
+        "Rocky")
+clear
+printf "\n"
+printf "${blu}Welcome To Rocky Termux For Android\n"
+printf "\n\n"
+
+printf "${ylw}• Rocky 9"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Rocky9\n"
+printf "${blu}Versi  ${red}: ${grn}9.1\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Rocky 8"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Rocky8\n"
+printf "${blu}Versi  ${red}: ${grn}8.7\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "Rocky8")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Rocky/rocky8.sh && chmod +x rocky8.sh && ./rocky8.sh
+        ;;
+        "Rocky9")
+wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Rocky/rocky9.sh && chmod +x rocky9.sh && ./rocky9.sh
+	;;
+
         "Ubuntu")
 clear
 printf "\n"
