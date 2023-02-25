@@ -101,6 +101,6 @@ echo " "
 echo "You can now start Photon with 'photon' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   photon4.sh
+   rm photon4.sh
    rm audiofix.sh
 bash $bin
