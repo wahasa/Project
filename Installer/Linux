@@ -168,16 +168,16 @@ printf "\n\n"
         "Opensuse")
         Install Opensuse
 ;;
-        "Parrot")
+        "Oracle")
         Install Oracle
 ;;
         "Parrot")
         Install Parrot
 ;;
-        "Parrot")
+        "Photon")
         Install Photon
 ;;
-        "Parrot")
+        "Rocky")
         Install Rocky
 ;;
         "Ubuntu")
