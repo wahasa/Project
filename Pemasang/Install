@@ -159,6 +159,7 @@ printf "\n\n"
 	;;
         "AltDev")
 wget  && chmod +x  && ./
+        ;;
         "Alt9")
         ;;
         "Alt10")
