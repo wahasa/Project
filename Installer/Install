@@ -35,6 +35,7 @@ wget  && chmod +x  && ./
         "Alma9")
 
         ;;
+
         "Amazon")
 clear
 printf "\n"
@@ -124,7 +125,7 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.sh && chmod +x alpine3.17.sh && ./alpine3.17.sh
 	;;
 
-"Alt")
+        "Alt")
 clear
 printf "\n"
 printf "${blu}Welcome To Alt Termux For Android\n"
