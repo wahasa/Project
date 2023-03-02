@@ -161,6 +161,7 @@ printf "\n\n"
 wget  && chmod +x  && ./
         ;;
         "Alt9")
+
         ;;
         "Alt10")
 
