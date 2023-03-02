@@ -34,46 +34,6 @@ wget  && chmod +x  && ./
         ;;
         "Alma9")
 
-        ;;
-
-        "Amazon")
-clear
-printf "\n"
-printf "${blu}Welcome To Amazon Termux For Android\n"
-printf "\n\n"
-
-printf "${ylw}• Amazon 2"
-printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}Amazon2\n"
-printf "${blu}Versi  ${red}: ${grn}2.0\n"
-printf "${blu}Status ${red}: ${grn}latest\n"
-printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
-printf "\n\n"
-printf "${ylw}• Amazon 1"
-printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}Amazon1\n"
-printf "${blu}Versi  ${red}: ${grn}1.0\n"
-printf "${blu}Status ${red}: ${grn}latest\n"
-printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
-printf "\n\n"
-printf "${ylw}• Amazon"
-printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}AmazonDev\n"
-printf "${blu}Versi  ${red}: ${grn}Build-20230222\n"
-printf "${blu}Status ${red}: ${grn}Development\n"
-printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
-printf "\n\n"
-printf "${grn}To install run with : Install <${blu}Name${grn}>"
-printf "\n\n"
-	;;
-        "AmazonDev")
-wget  && chmod +x  && ./
-        ;;
-        "Amazon1")
-
-        ;;
-        "Amazon2")
-
 	;;
 
 	"Alpine")
