@@ -6,6 +6,73 @@ case "$1" in
 	"")
 	Linux List
 	;;
+        "Alma")
+clear
+printf "\n"
+printf "${blu}Welcome To Alma Termux For Android\n"
+printf "\n\n"
+
+printf "${ylw}• Alma 9"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Alma9\n"
+printf "${blu}Versi  ${red}: ${grn}9.1\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Alma 8"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Alma8\n"
+printf "${blu}Versi  ${red}: ${grn}8.7\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "Alma8")
+wget  && chmod +x  && ./
+        ;;
+        "Alma9")
+
+        ;;
+        "Amazon")
+clear
+printf "\n"
+printf "${blu}Welcome To Amazon Termux For Android\n"
+printf "\n\n"
+
+printf "${ylw}• Amazon 2"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Amazon2\n"
+printf "${blu}Versi  ${red}: ${grn}2.0\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Amazon 1"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Amazon1\n"
+printf "${blu}Versi  ${red}: ${grn}1.0\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Amazon"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}AmazonDev\n"
+printf "${blu}Versi  ${red}: ${grn}Build-20230222\n"
+printf "${blu}Status ${red}: ${grn}Development\n"
+printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "AmazonDev")
+wget  && chmod +x  && ./
+        "Amazon 1")
+        ;;
+        "Amazon2")
+
+	;;
+
 	"Alpine")
 clear
 printf "\n"
@@ -55,6 +122,44 @@ wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.
         ;;
         "Alpine3.17")
 wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Alpine/alpine3.17.sh && chmod +x alpine3.17.sh && ./alpine3.17.sh
+	;;
+
+"Alt")
+clear
+printf "\n"
+printf "${blu}Welcome To Alt Termux For Android\n"
+printf "\n\n"
+
+printf "${ylw}• Alt 10"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Alt10\n"
+printf "${blu}Versi  ${red}: ${grn}P10\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Alt 9"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}Alt9\n"
+printf "${blu}Versi  ${red}: ${grn}P9.0\n"
+printf "${blu}Status ${red}: ${grn}latest\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${ylw}• Alt (sisyphus)"
+printf "\n\n"
+printf "${blu}Name   ${red}: ${grn}AltDev\n"
+printf "${blu}Versi  ${red}: ${grn}Build-\n"
+printf "${blu}Status ${red}: ${grn}Development\n"
+printf "${blu}Rootfs ${red}: ${grn}Armhf,Arm64,Amd64"
+printf "\n\n"
+printf "${grn}To install run with : Install <${blu}Name${grn}>"
+printf "\n\n"
+	;;
+        "AltDev")
+wget  && chmod +x  && ./
+        "Alt9")
+        ;;
+        "Alt10")
+
 	;;
 
         "Arch")
