@@ -67,7 +67,7 @@ printf "\n\n"
 	;;
         "AmazonDev")
 wget  && chmod +x  && ./
-        "Amazon 1")
+        "Amazon1")
         ;;
         "Amazon2")
 
