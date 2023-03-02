@@ -6,36 +6,6 @@ case "$1" in
 	"")
 	Linux List
 	;;
-        "Alma")
-clear
-printf "\n"
-printf "${blu}Welcome To Alma Termux For Android\n"
-printf "\n\n"
-
-printf "${ylw}• Alma 9"
-printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}Alma9\n"
-printf "${blu}Versi  ${red}: ${grn}9.1\n"
-printf "${blu}Status ${red}: ${grn}latest\n"
-printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
-printf "\n\n"
-printf "${ylw}• Alma 8"
-printf "\n\n"
-printf "${blu}Name   ${red}: ${grn}Alma8\n"
-printf "${blu}Versi  ${red}: ${grn}8.7\n"
-printf "${blu}Status ${red}: ${grn}latest\n"
-printf "${blu}Rootfs ${red}: ${grn}Arm64,Amd64"
-printf "\n\n"
-printf "${grn}To install run with : Install <${blu}Name${grn}>"
-printf "\n\n"
-	;;
-        "Alma8")
-wget  && chmod +x  && ./
-        ;;
-        "Alma9")
-
-	;;
-
 	"Alpine")
 clear
 printf "\n"
