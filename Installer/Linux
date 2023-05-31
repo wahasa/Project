@@ -27,31 +27,31 @@ printf "${ylw}List Linux Termux For Android"
 printf "\n\n"
 printf "${wht}+ ${blu}Alpine"
 printf "\n"
-printf "${wht}+ ${blu}Arch"
-printf "\n"
-printf "${wht}+ ${blu}Centos"
-printf "\n"
+#printf "${wht}+ ${blu}Arch"
+#printf "\n"
+#printf "${wht}+ ${blu}Centos"
+#printf "\n"
 printf "${wht}+ ${blu}Debian"
 printf "\n"
 printf "${wht}+ ${blu}Fedora"
 printf "\n"
 printf "${wht}+ ${blu}Kali"
 printf "\n"
-printf "${wht}+ ${blu}Manjaro"
-printf "\n"
-printf "${wht}+ ${blu}Opensuse"
-printf "\n"
-printf "${wht}+ ${blu}Oracle"
-printf "\n"
+#printf "${wht}+ ${blu}Manjaro"
+#printf "\n"
+#printf "${wht}+ ${blu}Opensuse"
+#printf "\n"
+#printf "${wht}+ ${blu}Oracle"
+#printf "\n"
 printf "${wht}+ ${blu}Parrot"
 printf "\n"
-printf "${wht}+ ${blu}Photon"
-printf "\n"
-printf "${wht}+ ${blu}Rocky"
-printf "\n"
+#printf "${wht}+ ${blu}Photon"
+#printf "\n"
+#printf "${wht}+ ${blu}Rocky"
+#printf "\n"
 printf "${wht}+ ${blu}Ubuntu"
-printf "\n"
-printf "${wht}+ ${blu}Void"
+#printf "\n"
+#printf "${wht}+ ${blu}Void"
 printf "\n\n"
 printf "${grn}Please run the command 'Linux <${blu}Name linux${grn}>' above."
 printf "\n\n"
@@ -145,7 +145,7 @@ printf "${blu}WaHaSa | Layar Geser 2022"
 printf "\n\n"
 	;;
         "Alpine")
-        Install Alpine
+        wget https://raw.githubusercontent.com/wahasa/Alpine/main/install.sh ; chmod +x install.sh ; ./install.sh
 ;;
         "Arch")
         Install Arch
@@ -154,13 +154,13 @@ printf "\n\n"
         Install Centos
 ;;
         "Debian")
-        Install Debian
+        wget https://raw.githubusercontent.com/wahasa/Debian/main/install.sh ; chmod +x install.sh ; ./install.sh
 ;;
         "Fedora")
-        Install Fedora
+        wget https://raw.githubusercontent.com/wahasa/fedora/main/install.sh ; chmod +x install.sh ; ./install.sh
 ;;
         "Kali")
-        Install Kali
+        wget https://raw.githubusercontent.com/wahasa/Kali-Nethunter/main/install.sh && chmod +x install.sh && ./install.sh
 ;;
         "Manjaro")
         Install Manjaro
@@ -172,7 +172,7 @@ printf "\n\n"
         Install Oracle
 ;;
         "Parrot")
-        Install Parrot
+        wget https://raw.githubusercontent.com/wahasa/Parrot/main/install.sh ; chmod +x install.sh ; ./install.sh
 ;;
         "Photon")
         Install Photon
@@ -181,7 +181,7 @@ printf "\n\n"
         Install Rocky
 ;;
         "Ubuntu")
-        Install Ubuntu
+        wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install.sh ; chmod +x install.sh ; ./install.sh
 ;;
         "Void")
         Install Void
