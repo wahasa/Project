@@ -8,20 +8,12 @@
 ---
 List Linux Termux
 
- - Alpine 3.15, 3.16, 3.17, Edge
- - Arch 2022
- - Centos 7, 8, 9
- - Debian 10.13, 11.06, bookworm
- - Fedora 36.1, 37.0, 38.0
- - Kali 2022.4
- - Manjaro 2023
- - Opensuse 15, 2022
- - Oracle 7, 8, 9
- - Parrot 5.1, 5.2
- - Photon 3, 4, 5
- - Rocky 8, 9
- - Ubuntu 22.04, 22.10, 23.04
- - Void 2022
+ - Alpine
+ - Debian
+ - Fedora
+ - Kali
+ - Parrot
+ - Ubuntu
 
 ---
 * Installation
@@ -35,13 +27,6 @@ pkg install wget && wget https://raw.githubusercontent.com/wahasa/Project/main/i
 Note :
 
 If the script doesn't work, try updating the Linux list by running the 'Linux Update' command.
-</br>
-
----
-</br>
-This time I will make a simple script to install Linux on Termux which I have collected for several Linux,
-</br>
-and I will continue to update it if there is the latest rootfs.
 </br>
 
 ---
