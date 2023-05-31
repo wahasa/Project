@@ -28,7 +28,7 @@ sleep 1
 echo -n "."
 sleep 1
 echo -n "."
-sleep 2
+sleep 1
 rm ../usr/bin/Install.*
 rm ../usr/bin/Linux.*
 rm ../usr/bin/Uninstall.*
