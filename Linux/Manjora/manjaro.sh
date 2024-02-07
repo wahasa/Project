@@ -1,23 +1,21 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install root-repo x11-repo
-pkg install proot -y
+pkg install proot pulseaudio -y
 termux-setup-storage
-
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
-
+manjaro=20240205
 folder=manjaro-fs
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
 fi
-tarball="manjaro-rootfs.tar.xz"
+tarball="manjaro-rootfs.tar.gz"
 if [ "$first" != 1 ];then
 	if [ ! -f $tarball ]; then
          	echo "Download Rootfs, this may take a while base on your internet speed."
     		case `dpkg --print-architecture` in
     		aarch64)
       			archurl="aarch64" ;;
-    		#arm)
+    		#arm*)
     		#  archurl="armhf" ;;
     		#amd64)
     		#  archurl="amd64" ;;
@@ -26,7 +24,7 @@ if [ "$first" != 1 ];then
     		*)
       			echo "unknown architecture"; exit 1 ;;
     		esac
-    		wget "https://github.com/manjaro-arm/rootfs/releases/download/20230220/Manjaro-ARM-${archurl}-latest.tar.gz" -O $tarball
+    		wget "https://github.com/manjaro-arm/rootfs/releases/download/${manjaro}/Manjaro-ARM-${archurl}-latest.tar.gz" -O $tarball
 	fi
 	cur=`pwd`
 	mkdir -p "$folder"
@@ -44,8 +42,9 @@ linux=manjaro
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
-pulseaudio -k >> /dev/null 2>&1
-pulseaudio --start >> /dev/null 2>&1
+pulseaudio --start \
+    --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" \
+    --exit-idle-time=-1
 cd \$(dirname \$0)
 ## unset LD_PRELOAD in case termux-exec is installed
 unset LD_PRELOAD
@@ -111,11 +110,11 @@ EOL
 echo "#!/bin/bash
 pacman-key --init && pacman-key --populate
 pacman -Sy && pacman -S nano --noconfirm
-clear
-echo " "
-echo "You can now start Manjaro with 'manjaro' script next time"
-echo " "
-rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   rm manjaro.sh
-   rm audiofix.sh
-bash $bin
+rm -rf ~/.bash_profile
+exit" > $folder/root/.bash_profile   
+bash $linux
+   clear
+   echo ""
+   echo "You can now start Manjaro with 'manjaro' script next time"
+   echo ""
+#rm manjaro.sh
