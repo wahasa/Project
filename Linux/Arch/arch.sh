@@ -3,8 +3,6 @@ pkg install root-repo x11-repo
 pkg install proot -y
 termux-setup-storage
 
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
-
 folder=arch-fs
 if [ -d "$folder" ]; then
 	first=1
@@ -107,6 +105,5 @@ echo " "
 echo "You can now start Arch with 'arch' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile   
-   rm arch.sh
-   rm audiofix.sh
+#rm arch.sh
 bash $bin
