@@ -94,8 +94,7 @@ EOM
 cat >$folder/etc/pacman.d/mirrorlist <<'EOL'
 ##
 ## Manjaro Linux repository mirrorlist
-## 
-
+##
 Server = https://ftp.psnc.pl/linux/manjaro/arm-stable/$repo/$arch
 Server = https://mirrors.dotsrc.org/manjaro/arm-stable/$repo/$arch
 EOL
