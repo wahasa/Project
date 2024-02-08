@@ -109,7 +109,7 @@ EOL
    echo " "
 echo "#!/bin/bash
 pacman-key --init && pacman-key --populate
-pacman -Sy && pacman -S nano --noconfirm
+pacman -Sy && pacman -S nano dialog --noconfirm
 rm -rf ~/.bash_profile
 exit" > $folder/root/.bash_profile   
 bash $linux
