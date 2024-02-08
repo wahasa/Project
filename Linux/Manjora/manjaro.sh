@@ -94,13 +94,9 @@ EOM
 cat >$folder/etc/pacman.d/mirrorlist <<'EOL'
 ##
 ## Manjaro Linux repository mirrorlist
-## Generated on 02 May 2020 14:22
-##
-## Use pacman-mirrors to modify
-##
-## Location  : Germany
-## Time      : 99.99
-## Last Sync :
+## 
+## Country : Poland
+Server = https://ftp.psnc.pl/linux/manjaro/arm-stable/$repo/$arch
 Server = https://mirrors.dotsrc.org/manjaro/arm-stable/$repo/$arch
 EOL
    clear
